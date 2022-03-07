@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "netlify-cli": "^9.12.4"
+  },
+  "homepage":"."
+}
