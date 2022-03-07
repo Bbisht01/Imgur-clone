@@ -1,0 +1,127 @@
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        background-image: url("https://s.imgur.com/desktop-assets/desktop-assets/homebg.e52b5cdf24f83bcd55f9f1318855f2ef.png");
+    }
+    .navbar-container{
+        display: flex;
+        position: sticky;
+        justify-content: space-between;
+        height: 70px;
+        padding-top: 18px;
+        /* background-color: #171544; */
+        /* border: 1px solid red; */
+    }
+    .left-container{
+        width: 20%;
+        height: 35px;
+        padding-bottom: 15px;
+        padding-left: 1%;
+        /* border: 1px solid red; */
+    }
+    .left-container >button{
+        border: none;
+        border-radius: 5px;
+        height: 35px;
+        margin-left: 4%;
+    }
+    .left-container >img{
+        width: 30%;
+        height: 35px;
+        /* background-color: #171544; */
+        /* border: 1px solid red; */
+    }
+    .left-container >button img{
+        width: 100%;
+        height: 35px;
+        outline: none;
+        height: 35px;
+        border-radius: 5px;        
+        /* border: 1px solid red; */
+    }
+    .input-div{
+        width: 35%;
+        height: 39px;       
+        background-color: #454469;
+        padding-left: 10px;
+        border-radius: 5px;
+        display: flex;
+        /* border: 1px solid red; */
+    }
+    .input-div>input{
+        width: 90%;
+        outline: none;
+        border: none;
+        font-size: 16px;
+        /* margin-bottom: 50px; */
+        color: #ffffff40;
+        background-color: #454469;
+        /* border: 1px solid blue; */
+    }
+    .input-div>button{
+        width: 9%;   
+        /* height: 20px;    */
+        border: none;
+        padding-top: 10px;
+        background-color: #454469;
+        color: white;
+        /* border: 1px solid red; */
+    }
+    .right-container{
+        height: 39px;
+        width: 26%;
+        padding-bottom: 3%;
+        display: flex;
+        /* border: 1px solid red; */
+    }
+    .right-container> button{
+        height: 35px;
+        border: none;
+        border-radius: 5px;
+        /* border: 1px solid blue; */
+    }
+    .right-container >img{
+       margin-left: 2%;
+       height: 30px;
+    }
+    .right-container #logInButton{
+        height: 35px;
+        width: 30%;
+        border: none;
+        /* border: 1px solid red; */
+        display: flex;
+        padding-top: 3%;
+        padding-left: 10px;
+        background-color: #282558;
+        color: white;
+        font-size: 12px;
+    }
+    .right-container #adFree img{
+        width: 100%;
+        height: 35px;
+        border-radius: 5px;
+        /* border: 1px solid red;  */
+    }
+
+.img-cont{
+    background-color: #171544;
+    display: grid;
+    width: 95%;
+    margin: auto;
+    margin-top: 30px;
+    justify-content: space-around;
+    grid-template-columns: repeat(5, 19%);
+    gap: 10px;
+}
+.card img{
+    width: 100%;
+}
+.img-cont > div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
